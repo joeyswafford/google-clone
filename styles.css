@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,arial,sans-serif;
+  color: #202124;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  font-size: 14px;
+
+}
+
+/* .leftLinks {
+
+} */
+
+.about {
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.about:hover {
+  text-decoration: underline;
+}
+
+.store {
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.store:hover {
+  text-decoration: underline;
+}
+
+.rightLinks {
+  display: flex;
+  align-items: center;
+  
+}
+
+.gmail {
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.gmail:hover {
+  text-decoration: underline;
+}
+
+.images {
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.images:hover {
+  text-decoration: underline;
+}
+
+.profileImage {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  max-height: 290px;
+  height: calc(100% - 560px);
+}
+
+.logoImage {
+  max-height: 92px;
+}
+
